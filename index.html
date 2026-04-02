@@ -819,17 +819,45 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const navbar = document.getElementById('navbar');
+            const menuBtn = document.getElementById('menu-btn');
+            const closeBtn = document.getElementById('close-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const overlay = document.getElementById('overlay');
 
-        window.onscroll = function () {
-            // Show header after scrolling down 100px
-            if (window.scrollY > 100) {
-                navbar.classList.remove('-translate-y-full');
-                navbar.classList.add('translate-y-0');
-            } else {
-                navbar.classList.add('-translate-y-full');
-                navbar.classList.remove('translate-y-0');
-            }
-        };
+            // SCROLL SHOW/HIDE NAVBAR
+            window.onscroll = function () {
+                if (window.scrollY > 100) {
+                    navbar.classList.remove('-translate-y-full');
+                    navbar.classList.add('translate-y-0');
+                } else {
+                    navbar.classList.add('-translate-y-full');
+                    navbar.classList.remove('translate-y-0');
+                }
+            };
+
+            // OPEN MENU
+            menuBtn.addEventListener('click', () => {
+                mobileMenu.classList.remove('translate-x-full');
+                mobileMenu.classList.add('translate-x-0');
+
+                overlay.classList.remove('hidden');
+            });
+
+            // CLOSE MENU (CLOSE BUTTON)
+            closeBtn.addEventListener('click', () => {
+                mobileMenu.classList.add('translate-x-full');
+                mobileMenu.classList.remove('translate-x-0');
+
+                overlay.classList.add('hidden');
+            });
+
+            // CLOSE MENU (CLICK OVERLAY)
+            overlay.addEventListener('click', () => {
+                mobileMenu.classList.add('translate-x-full');
+                mobileMenu.classList.remove('translate-x-0');
+
+                overlay.classList.add('hidden');
+            });
 
         // Counter Animation
 
