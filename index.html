@@ -16,24 +16,26 @@
         .font-roboto {
             font-family: "Roboto", sans-serif;
         }
-    .counter {
-        font-variant-numeric: tabular-nums; 
-        letter-spacing: -2px;
-        transition: color 0.3s ease;
-    }
-    .stat-item {
-        transition: transform 0.3s ease;
-    }
-    
-    .stat-item:hover {
-        transform: translateY(-5px);
-    }
 
-    .stat-item:hover svg {
-        opacity: 1;
-        color: #60a5fa; 
-        transition: all 0.3s ease;
-    }
+        .counter {
+            font-variant-numeric: tabular-nums;
+            letter-spacing: -2px;
+            transition: color 0.3s ease;
+        }
+
+        .stat-item {
+            transition: transform 0.3s ease;
+        }
+
+        .stat-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .stat-item:hover svg {
+            opacity: 1;
+            color: #60a5fa;
+            transition: all 0.3s ease;
+        }
     </style>
 </head>
 
@@ -139,7 +141,7 @@
     </div>
 
     <div id="overlay" class="fixed inset-0 bg-black/50 z-[55] hidden md:hidden"></div>
-    
+
     <section class="absolute top-0 left-0 w-full z-20 px-6 py-6 sm:px-10 lg:px-16">
         <div class="flex flex-col items-center gap-6 md:flex-row md:justify-between">
             <div class="w-full md:w-auto flex justify-center md:justify-start">
@@ -340,168 +342,168 @@
         </div>
     </section>
 
-<section class="w-full px-6 pt-12 lg:pt-20" style="background-color: rgb(243, 243, 243);">
-    <div class="mx-auto max-w-7xl">
-        <div class="text-center mb-10">
-            <h5 class="text-[#0556dd] text-xl lg:text-2xl font-normal mb-3">Let’s show more</h5>
-            <h1 class="text-[#222222] text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-                Discover More Specifications
-            </h1>
+    <section class="w-full px-6 pt-12 lg:pt-20" style="background-color: rgb(243, 243, 243);">
+        <div class="mx-auto max-w-7xl">
+            <div class="text-center mb-10">
+                <h5 class="text-[#0556dd] text-xl lg:text-2xl font-normal mb-3">Let’s show more</h5>
+                <h1 class="text-[#222222] text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
+                    Discover More Specifications
+                </h1>
 
-            <div class="flex flex-col items-center w-full mt-6">
-                <div class="w-16 h-[2px] bg-[#0556dd] mb-1"></div>
-                <div class="w-10 h-[2px] bg-[#0556dd]/30"></div>
+                <div class="flex flex-col items-center w-full mt-6">
+                    <div class="w-16 h-[2px] bg-[#0556dd] mb-1"></div>
+                    <div class="w-10 h-[2px] bg-[#0556dd]/30"></div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-8 items-center mt-10">
+
+                <div class="flex flex-col gap-12 lg:gap-16 order-2 lg:order-1">
+
+                    <div
+                        class="group flex flex-col lg:flex-row items-center lg:items-start justify-end gap-6 text-center lg:text-right cursor-pointer">
+                        <div class="order-2 lg:order-1">
+                            <h3
+                                class="text-xl lg:text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd] font-semibold">
+                                Additional Details
+                            </h3>
+                            <p class="text-gray-500 text-sm max-w-xs mx-auto lg:ml-auto lg:mr-0">
+                                Your project looks great on any device what is available.
+                            </p>
+                        </div>
+                        <div
+                            class="order-1 lg:order-2 flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4 bg-white">
+                            <svg class="w-8 h-8 text-[#0556dd] group-hover:text-white" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M12 8v8m4-8v8M8 8v8m4-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div
+                        class="group flex flex-col lg:flex-row items-center lg:items-start justify-end gap-6 text-center lg:text-right cursor-pointer">
+                        <div class="order-2 lg:order-1">
+                            <h3
+                                class="text-xl lg:text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd] font-semibold">
+                                Custom Personality
+                            </h3>
+                            <p class="text-gray-500 text-sm max-w-xs mx-auto lg:ml-auto lg:mr-0">
+                                Adaptive designs that match your brand identity perfectly.
+                            </p>
+                        </div>
+                        <div
+                            class="order-1 lg:order-2 flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4 bg-white">
+                            <svg class="w-8 h-8 text-[#0556dd] group-hover:text-white" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
+                                </path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div
+                        class="group flex flex-col lg:flex-row items-center lg:items-start justify-end gap-6 text-center lg:text-right cursor-pointer">
+                        <div class="order-2 lg:order-1">
+                            <h3
+                                class="text-xl lg:text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd] font-semibold">
+                                Easy Sharing
+                            </h3>
+                            <p class="text-gray-500 text-sm max-w-xs mx-auto lg:ml-auto lg:mr-0">
+                                Share your project across platforms with one simple click.
+                            </p>
+                        </div>
+                        <div
+                            class="order-1 lg:order-2 flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4 bg-white">
+                            <svg class="w-10 h-10 text-[#0556dd] group-hover:text-white" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M7 12V8h11m0 0l-3-3m3 3l-3 3" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M17 12v4H6m0 0l3 3m-3-3l3-3" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-center order-1 lg:order-2 py-8 lg:py-0">
+                    <img src="./images/phone-about2.webp" alt="Phone"
+                        class="w-full max-w-[280px] md:max-w-[320px] h-auto object-contain drop-shadow-2xl">
+                </div>
+
+                <div class="flex flex-col gap-12 lg:gap-16 order-3">
+
+                    <div
+                        class="group flex flex-col lg:flex-row items-center lg:items-start justify-start gap-6 text-center lg:text-left cursor-pointer">
+                        <div
+                            class="flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4 bg-white">
+                            <svg class="w-10 h-8 text-[#0556dd] group-hover:text-white" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <rect x="4" y="6" width="16" height="3" stroke-width="1.5" />
+                                <rect x="4" y="11" width="16" height="3" stroke-width="1.5" />
+                                <rect x="4" y="16" width="16" height="3" stroke-width="1.5" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h3
+                                class="text-xl lg:text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd] font-semibold">
+                                Custom Options
+                            </h3>
+                            <p class="text-gray-500 text-sm max-w-xs">
+                                Flexible settings to ensure the user experience is top-notch.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="group flex flex-col lg:flex-row items-center lg:items-start justify-start gap-6 text-center lg:text-left cursor-pointer">
+                        <div
+                            class="flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4 bg-white">
+                            <svg class="w-10 h-10 text-[#0556dd] group-hover:text-white" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M7 11V19M7 11H4V19H7M7 11C7 11 8 5 12 5C13.5 5 14.5 6.5 14 8C13.5 9.5 12.5 10 12.5 10H18C19.1 10 20 10.9 20 12C20 12.3 19.9 12.6 19.7 12.8L18.4 16.8C18.1 17.5 17.4 18 16.7 18H10.5C9.7 18 8.9 17.6 8.4 17L7 15" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h3
+                                class="text-xl lg:text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd] font-semibold">
+                                User Approval
+                            </h3>
+                            <p class="text-gray-500 text-sm max-w-xs">
+                                Highly rated by thousands of users across the globe.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="group flex flex-col lg:flex-row items-center lg:items-start justify-start gap-6 text-center lg:text-left cursor-pointer">
+                        <div
+                            class="flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4 bg-white">
+                            <svg class="w-10 h-10 text-[#0556dd] group-hover:text-white" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M5 8H19V20H5V8Z M10 8V6H14V8 M5 14H10 M14 14H19 M10 12.5H14V15.5H10V12.5Z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h3
+                                class="text-xl lg:text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd] font-semibold">
+                                Smart Storage
+                            </h3>
+                            <p class="text-gray-500 text-sm max-w-xs">
+                                Optimized data management for faster loading speeds.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
-
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-8 items-center mt-10">
-
-            <div class="flex flex-col gap-12 lg:gap-16 order-2 lg:order-1">
-
-                <div
-                    class="group flex flex-col lg:flex-row items-center lg:items-start justify-end gap-6 text-center lg:text-right cursor-pointer">
-                    <div class="order-2 lg:order-1">
-                        <h3
-                            class="text-xl lg:text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd] font-semibold">
-                            Additional Details
-                        </h3>
-                        <p class="text-gray-500 text-sm max-w-xs mx-auto lg:ml-auto lg:mr-0">
-                            Your project looks great on any device what is available.
-                        </p>
-                    </div>
-                    <div
-                        class="order-1 lg:order-2 flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4 bg-white">
-                        <svg class="w-8 h-8 text-[#0556dd] group-hover:text-white" fill="none" stroke="currentColor"
-                            viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M12 8v8m4-8v8M8 8v8m4-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                        </svg>
-                    </div>
-                </div>
-
-                <div
-                    class="group flex flex-col lg:flex-row items-center lg:items-start justify-end gap-6 text-center lg:text-right cursor-pointer">
-                    <div class="order-2 lg:order-1">
-                        <h3
-                            class="text-xl lg:text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd] font-semibold">
-                            Custom Personality
-                        </h3>
-                        <p class="text-gray-500 text-sm max-w-xs mx-auto lg:ml-auto lg:mr-0">
-                            Adaptive designs that match your brand identity perfectly.
-                        </p>
-                    </div>
-                    <div
-                        class="order-1 lg:order-2 flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4 bg-white">
-                        <svg class="w-8 h-8 text-[#0556dd] group-hover:text-white" fill="none" stroke="currentColor"
-                            viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
-                            </path>
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                        </svg>
-                    </div>
-                </div>
-
-                <div
-                    class="group flex flex-col lg:flex-row items-center lg:items-start justify-end gap-6 text-center lg:text-right cursor-pointer">
-                    <div class="order-2 lg:order-1">
-                        <h3
-                            class="text-xl lg:text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd] font-semibold">
-                            Easy Sharing
-                        </h3>
-                        <p class="text-gray-500 text-sm max-w-xs mx-auto lg:ml-auto lg:mr-0">
-                            Share your project across platforms with one simple click.
-                        </p>
-                    </div>
-                    <div
-                        class="order-1 lg:order-2 flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4 bg-white">
-                        <svg class="w-10 h-10 text-[#0556dd] group-hover:text-white" fill="none" stroke="currentColor"
-                            viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M7 12V8h11m0 0l-3-3m3 3l-3 3" />
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M17 12v4H6m0 0l3 3m-3-3l3-3" />
-                        </svg>
-                    </div>
-                </div>
-            </div>
-
-            <div class="flex justify-center order-1 lg:order-2 py-8 lg:py-0">
-                <img src="./images/phone-about2.webp" alt="Phone"
-                    class="w-full max-w-[280px] md:max-w-[320px] h-auto object-contain drop-shadow-2xl">
-            </div>
-
-            <div class="flex flex-col gap-12 lg:gap-16 order-3">
-
-                <div
-                    class="group flex flex-col lg:flex-row items-center lg:items-start justify-start gap-6 text-center lg:text-left cursor-pointer">
-                    <div
-                        class="flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4 bg-white">
-                        <svg class="w-10 h-8 text-[#0556dd] group-hover:text-white" fill="none" stroke="currentColor"
-                            viewBox="0 0 24 24">
-                            <rect x="4" y="6" width="16" height="3" stroke-width="1.5" />
-                            <rect x="4" y="11" width="16" height="3" stroke-width="1.5" />
-                            <rect x="4" y="16" width="16" height="3" stroke-width="1.5" />
-                        </svg>
-                    </div>
-                    <div>
-                        <h3
-                            class="text-xl lg:text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd] font-semibold">
-                            Custom Options
-                        </h3>
-                        <p class="text-gray-500 text-sm max-w-xs">
-                            Flexible settings to ensure the user experience is top-notch.
-                        </p>
-                    </div>
-                </div>
-
-                <div
-                    class="group flex flex-col lg:flex-row items-center lg:items-start justify-start gap-6 text-center lg:text-left cursor-pointer">
-                    <div
-                        class="flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4 bg-white">
-                        <svg class="w-10 h-10 text-[#0556dd] group-hover:text-white" fill="none" stroke="currentColor"
-                            viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M7 11V19M7 11H4V19H7M7 11C7 11 8 5 12 5C13.5 5 14.5 6.5 14 8C13.5 9.5 12.5 10 12.5 10H18C19.1 10 20 10.9 20 12C20 12.3 19.9 12.6 19.7 12.8L18.4 16.8C18.1 17.5 17.4 18 16.7 18H10.5C9.7 18 8.9 17.6 8.4 17L7 15" />
-                        </svg>
-                    </div>
-                    <div>
-                        <h3
-                            class="text-xl lg:text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd] font-semibold">
-                            User Approval
-                        </h3>
-                        <p class="text-gray-500 text-sm max-w-xs">
-                            Highly rated by thousands of users across the globe.
-                        </p>
-                    </div>
-                </div>
-
-                <div
-                    class="group flex flex-col lg:flex-row items-center lg:items-start justify-start gap-6 text-center lg:text-left cursor-pointer">
-                    <div
-                        class="flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4 bg-white">
-                        <svg class="w-10 h-10 text-[#0556dd] group-hover:text-white" fill="none" stroke="currentColor"
-                            viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M5 8H19V20H5V8Z M10 8V6H14V8 M5 14H10 M14 14H19 M10 12.5H14V15.5H10V12.5Z" />
-                        </svg>
-                    </div>
-                    <div>
-                        <h3
-                            class="text-xl lg:text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd] font-semibold">
-                            Smart Storage
-                        </h3>
-                        <p class="text-gray-500 text-sm max-w-xs">
-                            Optimized data management for faster loading speeds.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
     <section
         class="relative w-full min-h-[500px] flex flex-col items-center justify-center px-6 sm:px-10 py-12 lg:px-16 overflow-hidden bg-cover bg-center bg-fixed"
         style="background-image: linear-gradient(rgba(15, 52, 75, 0.92), rgba(15, 52, 75, 0.92)), url('./images/image119.webp');">
@@ -519,14 +521,15 @@
 
                 <div
                     class="group relative overflow-hidden border-8 border-transparent hover:border-white cursor-pointer transition-all duration-300">
-                
+
                     <img src="./images/img1.webp" alt="Screenshot 2"
                         class="w-full h-auto transition-transform duration-500 group-hover:scale-110">
-                
+
                     <div
                         class="absolute inset-0 bg-[#0556dd]/80 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
-                
-                        <div class="w-12 h-12 border-2 border-white rounded-full flex items-center justify-center text-white text-3xl">
+
+                        <div
+                            class="w-12 h-12 border-2 border-white rounded-full flex items-center justify-center text-white text-3xl">
                             +
                         </div>
                     </div>
@@ -534,14 +537,15 @@
 
                 <div
                     class="group relative overflow-hidden border-8 border-transparent hover:border-white cursor-pointer transition-all duration-300">
-                
+
                     <img src="./images/img2.webp" alt="Screenshot 2"
                         class="w-full h-auto transition-transform duration-500 group-hover:scale-110">
-                
+
                     <div
                         class="absolute inset-0 bg-[#0556dd]/80 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
-                
-                        <div class="w-12 h-12 border-2 border-white rounded-full flex items-center justify-center text-white text-3xl">
+
+                        <div
+                            class="w-12 h-12 border-2 border-white rounded-full flex items-center justify-center text-white text-3xl">
                             +
                         </div>
                     </div>
@@ -569,339 +573,800 @@
                             +</div>
                     </div>
                 </div>
-                <!-- <div class="group relative overflow-hidden border-none hover:border-10 hover:border-[#ffffff] cursor-pointer">
-                    <img src="./images/img5.webp" alt="Screenshot 2"
-                        class="w-full h-auto transition-transform duration-500 group-hover:scale-110">
-                    <div
-                        class="absolute inset-0 bg-[#0556dd]/80 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
-                        <div class="w-12 h-12 border-2 border-white rounded-full flex items-center justify-center text-white text-3xl">
-                            +</div>
-                    </div>
-                </div>
-                <div class="group relative overflow-hidden border-none hover:border-10 hover:border-[#ffffff] cursor-pointer">
-                    <img src="./images/img6.webp" alt="Screenshot 2"
-                        class="w-full h-auto transition-transform duration-500 group-hover:scale-110">
-                    <div
-                        class="absolute inset-0 bg-[#0556dd]/80 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
-                        <div class="w-12 h-12 border-2 border-white rounded-full flex items-center justify-center text-white text-3xl">
-                            +</div>
-                    </div>
-                </div>
-                <div class="group relative overflow-hidden border-none hover:border-10 hover:border-[#ffffff] cursor-pointer">
-                    <img src="./images/img7.webp" alt="Screenshot 2"
-                        class="w-full h-auto transition-transform duration-500 group-hover:scale-110">
-                    <div
-                        class="absolute inset-0 bg-[#0556dd]/80 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
-                        <div class="w-12 h-12 border-2 border-white rounded-full flex items-center justify-center text-white text-3xl">
-                            +</div>
-                    </div>
-                </div> -->
             </div>
         </div>
     </section>
     <section class="w-full px-6 pt-6 lg:pt-16 sm:px-10 lg:px-16 bg-white font-sans">
-                <h5 class="text-[#0556dd] text-2xl lg:text-2xl text-center font-normal mb-3">More features</h5>
-                <h1 class="text-center text-[#222222] text-5xl lg:text-5xl font-normal">There is still more</h1>
-                
-                <div class="flex flex-col items-center w-full mt-10">
-                    <div class="w-16 h-[1px] bg-[#0556dd] mb-1 mx-auto"></div>
-                    <div class="w-10 h-[1.5px] bg-[#0556dd]/40 mb-10 mx-auto"></div>
-                </div>
+        <h5 class="text-[#0556dd] text-2xl lg:text-2xl text-center font-normal mb-3 font-roboto">More features</h5>
+        <h1 class="text-center text-[#222222] text-5xl lg:text-5xl font-normal font-roboto">There is still more</h1>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16 items-center mt-10">
-            
-                <div class="group flex items-center gap-6 cursor-pointer">
-                    <div
-                        class="flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4">
-                        <svg class="w-10 h-8 text-[#0556dd] group-hover:text-white" fill="none" stroke="currentColor"
-                            viewBox="0 0 24 24">
-                            <rect x="4" y="6" width="16" height="3" stroke-width="1.5" />
-                            <rect x="4" y="11" width="16" height="3" stroke-width="1.5" />
-                            <rect x="4" y="16" width="16" height="3" stroke-width="1.5" />
-                        </svg>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd]">Custom Options</h3>
-                        <p class="text-gray-500 text-sm">Your project looks great on any device what is available</p>
-                    </div>
+        <div class="flex flex-col items-center w-full mt-10">
+            <div class="w-16 h-[1px] bg-[#0556dd] mb-1 mx-auto"></div>
+            <div class="w-10 h-[1.5px] bg-[#0556dd]/40 mb-10 mx-auto"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16 items-center mt-10">
+
+            <div class="group flex items-center gap-6 cursor-pointer">
+                <div
+                    class="flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4">
+                    <svg class="w-10 h-8 text-[#0556dd] group-hover:text-white" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24">
+                        <rect x="4" y="6" width="16" height="3" stroke-width="1.5" />
+                        <rect x="4" y="11" width="16" height="3" stroke-width="1.5" />
+                        <rect x="4" y="16" width="16" height="3" stroke-width="1.5" />
+                    </svg>
                 </div>
-            
-                <div class="group flex items-center gap-6 cursor-pointer">
-                    <div
-                        class="flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4">
-                        <svg class="w-10 h-10 text-[#0556dd] group-hover:text-white" fill="none" stroke="currentColor"
-                            viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M7 11V19M7 11H4V19H7M7 11C7 11 8 5 12 5C13.5 5 14.5 6.5 14 8C13.5 9.5 12.5 10 12.5 10H18C19.1 10 20 10.9 20 12C20 12.3 19.9 12.6 19.7 12.8L18.4 16.8C18.1 17.5 17.4 18 16.7 18H10.5C9.7 18 8.9 17.6 8.4 17L7 15" />
-                        </svg>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd]">Premium Features</h3>
-                        <p class="text-gray-500 text-sm">Your project looks great on any device what is available</p>
-                    </div>
-                </div>
-            
-                <div class="group flex items-center gap-6 cursor-pointer">
-                    <div
-                        class="flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4">
-                        <svg class="w-10 h-10 text-[#0556dd] group-hover:text-white" fill="none" stroke="currentColor"
-                            viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M5 8H19V20H5V8Z M10 8V6H14V8 M5 14H10 M14 14H19 M10 12.5H14V15.5H10V12.5Z" />
-                        </svg>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd]">Showcase Ready</h3>
-                        <p class="text-gray-500 text-sm">Your project looks great on any device what is available</p>
-                    </div>
-                </div>
-            
-                <div class="group flex items-center gap-6 cursor-pointer">
-                    <div
-                        class="flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4">
-                        <svg class="w-8 h-8 text-[#0556dd] group-hover:text-white" fill="none" stroke="currentColor"
-                            viewBox="0 0 24 24">
-                            <circle cx="12" cy="8" r="4" stroke-width="1.5" />
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 12l-2 8 2-2 2 2-2-8" />
-                        </svg>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd]">Additional Details</h3>
-                        <p class="text-gray-500 text-sm">Your project looks great on any device what is available</p>
-                    </div>
-                </div>
-            
-                <div class="group flex items-center gap-6 cursor-pointer">
-                    <div
-                        class="flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4">
-                        <svg class="w-8 h-8 text-[#0556dd] group-hover:text-white" fill="none" stroke="currentColor"
-                            viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M15 5l-7 7m0 0l2 2m-2-2l-2-2m7 7l7-7m-7 7l-2-2m2 2l2 2M5 19l3-3" />
-                        </svg>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd]">Custom Personality</h3>
-                        <p class="text-gray-500 text-sm">Your project looks great on any device what is available</p>
-                    </div>
-                </div>
-            
-                <div class="group flex items-center gap-6 cursor-pointer">
-                    <div
-                        class="flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4">
-                        <svg class="w-10 h-10 text-[#0556dd] group-hover:text-white" fill="none" stroke="currentColor"
-                            viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M7 12V8h11m0 0l-3-3m3 3l-3 3" />
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M17 12v4H6m0 0l3 3m-3-3l3-3" />
-                        </svg>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd]">Easy Sharing</h3>
-                        <p class="text-gray-500 text-sm">Your project looks great on any device what is available</p>
-                    </div>
+                <div>
+                    <h3 class="text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd] font-roboto">
+                        Custom Options</h3>
+                    <p class="text-gray-500 text-sm font-roboto">Your project looks great on any device what is
+                        available</p>
                 </div>
             </div>
+
+            <div class="group flex items-center gap-6 cursor-pointer">
+                <div
+                    class="flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4">
+                    <svg class="w-10 h-10 text-[#0556dd] group-hover:text-white" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M7 11V19M7 11H4V19H7M7 11C7 11 8 5 12 5C13.5 5 14.5 6.5 14 8C13.5 9.5 12.5 10 12.5 10H18C19.1 10 20 10.9 20 12C20 12.3 19.9 12.6 19.7 12.8L18.4 16.8C18.1 17.5 17.4 18 16.7 18H10.5C9.7 18 8.9 17.6 8.4 17L7 15" />
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd] font-roboto">
+                        Premium Features</h3>
+                    <p class="text-gray-500 text-sm font-roboto">Your project looks great on any device what is
+                        available</p>
+                </div>
+            </div>
+
+            <div class="group flex items-center gap-6 cursor-pointer">
+                <div
+                    class="flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4">
+                    <svg class="w-10 h-10 text-[#0556dd] group-hover:text-white" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M5 8H19V20H5V8Z M10 8V6H14V8 M5 14H10 M14 14H19 M10 12.5H14V15.5H10V12.5Z" />
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd] font-roboto">
+                        Showcase Ready</h3>
+                    <p class="text-gray-500 text-sm font-roboto">Your project looks great on any device what is
+                        available</p>
+                </div>
+            </div>
+
+            <div class="group flex items-center gap-6 cursor-pointer">
+                <div
+                    class="flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4">
+                    <svg class="w-8 h-8 text-[#0556dd] group-hover:text-white" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24">
+                        <circle cx="12" cy="8" r="4" stroke-width="1.5" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M12 12l-2 8 2-2 2 2-2-8" />
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd] font-roboto">
+                        Additional Details</h3>
+                    <p class="text-gray-500 text-sm font-roboto">Your project looks great on any device what is
+                        available</p>
+                </div>
+            </div>
+
+            <div class="group flex items-center gap-6 cursor-pointer">
+                <div
+                    class="flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4">
+                    <svg class="w-8 h-8 text-[#0556dd] group-hover:text-white" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M15 5l-7 7m0 0l2 2m-2-2l-2-2m7 7l7-7m-7 7l-2-2m2 2l2 2M5 19l3-3" />
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd] font-roboto">
+                        Custom Personality</h3>
+                    <p class="text-gray-500 text-sm font-roboto">Your project looks great on any device what is
+                        available</p>
+                </div>
+            </div>
+
+            <div class="group flex items-center gap-6 cursor-pointer">
+                <div
+                    class="flex-shrink-0 w-20 h-20 border border-gray-300 rounded-full flex items-center justify-center transition-all group-hover:bg-[#0556dd] group-hover:ring-2 group-hover:ring-[#0556dd] group-hover:ring-offset-4">
+                    <svg class="w-10 h-10 text-[#0556dd] group-hover:text-white" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M7 12V8h11m0 0l-3-3m3 3l-3 3" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M17 12v4H6m0 0l3 3m-3-3l3-3" />
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-2xl text-gray-800 mb-2 transition-colors group-hover:text-[#0556dd] font-roboto">
+                        Easy Sharing</h3>
+                    <p class="text-gray-500 text-sm font-roboto">Your project looks great on any device what is
+                        available</p>
+                </div>
+            </div>
+        </div>
         <div class="flex justify-center max-w-4xl mx-auto mt-16">
             <img src="./images/phone-about3.webp" alt="Phone" class="w-full h-auto object-contain">
         </div>
     </section>
-    <section class="relative w-full flex flex-col items-center justify-center px-6 sm:px-10 py-12 lg:py-24 lg:px-16 overflow-hidden bg-cover bg-center bg-fixed"
+    <section
+        class="relative w-full flex flex-col items-center justify-center px-6 sm:px-10 py-12 lg:py-24 lg:px-16 overflow-hidden bg-cover bg-center bg-fixed"
         style="background-image: linear-gradient(rgba(31, 31, 31, 0.92), rgba(31, 31, 31, 0.92)), url('./images/image88.webp');">
-            <div id="statistics-section" class="w-full max-w-7xl grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
-            
-                <div class="stat-item flex flex-col items-center gap-4">
-                    <svg class="w-12 h-12 opacity-50" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                            d="M12 22V13M12 22l-3-3m3 3l3-3M5.8 20.2A9 9 0 014.5 9.1a9 9 0 0115 0 9 9 0 01-1.3 11.1" />
-                    </svg>
-                    <span class="counter text-7xl font-normal font-light" data-target="229">229</span>
-                    <p class="text-sm opacity-70 tracking-wider">Downloads</p>
-                </div>
-            
-                <div class="stat-item flex flex-col items-center gap-4">
-                    <svg class="w-12 h-12 opacity-50" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                            d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
-                        <circle cx="9" cy="7" r="4" />
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                            d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" />
-                    </svg>
-                    <span class="counter text-7xl font-normal font-light" data-target="847">847</span>
-                    <p class="text-sm opacity-70 tracking-wider">Happy Clients</p>
-                </div>
-            
-                <div class="stat-item flex flex-col items-center gap-4">
-                    <svg class="w-12 h-12 opacity-50" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                        <circle cx="9" cy="21" r="1" />
-                        <circle cx="20" cy="21" r="1" />
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                            d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6" />
-                    </svg>
-                    <span class="counter text-7xl font-normal font-light" data-target="900">900</span>
-                    <p class="text-sm opacity-70 tracking-wider">Sales</p>
-                </div>
-            
-                <div class="stat-item flex flex-col items-center gap-4">
-                    <svg class="w-12 h-12 opacity-50" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                    <span class="counter text-7xl font-normal font-light" data-target="561">561</span>
-                    <p class="text-sm opacity-70 tracking-wider">Hours Worked</p>
-                </div>
+        <div id="statistics-section"
+            class="w-full max-w-7xl grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
+
+            <div class="stat-item flex flex-col items-center gap-4">
+                <svg class="w-12 h-12 opacity-50" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                        d="M12 22V13M12 22l-3-3m3 3l3-3M5.8 20.2A9 9 0 014.5 9.1a9 9 0 0115 0 9 9 0 01-1.3 11.1" />
+                </svg>
+                <span class="counter text-7xl font-normal font-light" data-target="229">229</span>
+                <p class="text-sm opacity-70 tracking-wider">Downloads</p>
             </div>
+
+            <div class="stat-item flex flex-col items-center gap-4">
+                <svg class="w-12 h-12 opacity-50" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                        d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                        d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" />
+                </svg>
+                <span class="counter text-7xl font-normal font-light" data-target="847">847</span>
+                <p class="text-sm opacity-70 tracking-wider">Happy Clients</p>
+            </div>
+
+            <div class="stat-item flex flex-col items-center gap-4">
+                <svg class="w-12 h-12 opacity-50" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <circle cx="9" cy="21" r="1" />
+                    <circle cx="20" cy="21" r="1" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                        d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6" />
+                </svg>
+                <span class="counter text-7xl font-normal font-light" data-target="900">900</span>
+                <p class="text-sm opacity-70 tracking-wider">Sales</p>
+            </div>
+
+            <div class="stat-item flex flex-col items-center gap-4">
+                <svg class="w-12 h-12 opacity-50" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span class="counter text-7xl font-normal font-light" data-target="561">561</span>
+                <p class="text-sm opacity-70 tracking-wider">Hours Worked</p>
+            </div>
+        </div>
     </section>
-    <!-- <section class="w-full px-6 pt-6 lg:pt-16 sm:px-10 lg:px-16 bg-white font-sans">
-            <h5 class="text-[#0556dd] text-2xl lg:text-2xl text-center font-normal mb-3">Customers</h5>
-            <h1 class="text-center text-[#222222] text-5xl lg:text-5xl font-normal">Our Clients</h1>
-            
-            <div class="flex flex-col items-center w-full mt-10">
-                <div class="w-16 h-[1px] bg-[#0556dd] mb-1 mx-auto"></div>
-                <div class="w-10 h-[1px] bg-[#0556dd] mb-10 mx-auto"></div>
-            </div>
+    <section class="w-full px-6 pt-6 lg:pt-16 py-16 sm:px-10 lg:px-16 bg-white font-sans">
+        <h5 class="text-[#0556dd] text-2xl lg:text-2xl text-center font-normal mb-3 font-roboto">Customers</h5>
+        <h1 class="text-center text-[#222222] text-5xl lg:text-5xl font-normal font-roboto">Our Clients</h1>
+
+        <div class="flex flex-col items-center w-full mt-10">
+            <div class="w-16 h-[1px] bg-[#0556dd] mb-1 mx-auto"></div>
+            <div class="w-10 h-[1px] bg-[#0556dd] mb-10 mx-auto"></div>
+        </div>
 
         <div class="container mx-auto mt-2 px-4">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 border-gray-200">
-        
+
                 <a href="#"
                     class="flex flex-col items-center justify-center p-12 border-b sm:border-r border-gray-300 transition-all cursor-pointer hover:bg-gray-100">
                     <img src="./images/football.webp" alt="Football Club"
                         class="w-auto object-contain grayscale hover:grayscale-0 transition-all">
                 </a>
-        
+
                 <a href="#"
                     class="flex flex-col items-center justify-center p-12 border-b lg:border-r border-gray-300 transition-all cursor-pointer hover:bg-gray-100">
                     <img src="./images/vintage.webp" alt="Vintage House"
                         class="w-auto object-contain grayscale hover:grayscale-0 transition-all">
                 </a>
-        
+
                 <a href="#"
                     class="flex flex-col items-center justify-center p-12 border-b sm:border-r border-gray-300 transition-all cursor-pointer hover:bg-gray-100">
                     <img src="./images/american.webp" alt="American Eagle"
                         class="w-auto object-contain grayscale hover:grayscale-0 transition-all">
                 </a>
-        
+
                 <a href="#"
                     class="flex flex-col items-center justify-center p-12 border-b border-gray-300 transition-all cursor-pointer hover:bg-gray-100">
                     <img src="./images/design.webp" alt="Jefferson Design"
                         class="w-auto object-contain grayscale hover:grayscale-0 transition-all">
                 </a>
-        
+
                 <a href="#"
                     class="flex flex-col items-center justify-center p-12 border-b sm:border-r lg:border-b-0 border-gray-300 transition-all cursor-pointer hover:bg-gray-100">
                     <img src="./images/since.webp" alt="The Vintage USA"
                         class="w-auto object-contain grayscale hover:grayscale-0 transition-all">
                 </a>
-        
+
                 <a href="#"
                     class="flex flex-col items-center justify-center p-12 border-b lg:border-r lg:border-b-0 border-gray-300 transition-all cursor-pointer hover:bg-gray-100">
                     <img src="./images/alien.webp" alt="Alien Valley Circular"
                         class="w-auto object-contain grayscale hover:grayscale-0 transition-all">
                 </a>
-        
+
                 <a href="#"
                     class="flex flex-col items-center justify-center p-12 border-b sm:border-r sm:border-b-0 border-gray-300 transition-all cursor-pointer hover:bg-gray-100">
                     <img src="./images/graphics.webp" alt="Alien Valley Hexagon"
                         class="w-auto object-contain grayscale hover:grayscale-0 transition-all">
                 </a>
-        
+
                 <a href="#"
                     class="flex flex-col items-center justify-center p-12 cursor-pointer transition-all hover:bg-gray-100">
                     <img src="./images/mcqueen.webp" alt="McQueen Motor Oil"
                         class="w-auto object-contain grayscale hover:grayscale-0 transition-all">
                 </a>
-        
+
             </div>
         </div>
-    </section> -->
+    </section>
+    <section
+        class="relative w-full flex flex-col items-center justify-center px-6 sm:px-10 py-12 lg:py-24 lg:px-16 overflow-hidden bg-cover bg-center bg-fixed"
+        style="background-image: linear-gradient(rgba(0, 191, 243, 0.92), rgba(0, 191, 243, 0.92)), url('./images/image88.webp');">
+        <h5 class="text-[#ffffff] text-2xl lg:text-2xl text-center font-normal mb-3 font-roboto">Our Reviewers</h5>
+        <h1 class="text-center text-[#ffffff] text-5xl lg:text-5xl font-normal font-roboto">Some Testmonials</h1>
+
+        <div class="flex flex-col items-center w-full mt-10">
+            <div class="w-16 h-[1px] bg-[#ffffff] mb-1 mx-auto"></div>
+            <div class="w-10 h-[1.5px] bg-[#ffffff]/70 mb-10 mx-auto"></div>
+        </div>
+
+        <div class="max-w-6xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <div class="flex flex-col items-center text-center">
+                    <div class="relative bg-white p-8 rounded-2xl shadow-lg mb-8">
+                        <div
+                            class="absolute -top-6 left-1/2 -translate-x-1/2 bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-md ring-4 ring-black/15">
+                            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                                <path
+                                    d="M14.017 21L14.017 18C14.017 16.8954 14.9124 16 16.017 16H19.017C19.5693 16 20.017 15.5523 20.017 15V9C20.017 8.44772 19.5693 8 19.017 8H15.017C14.4647 8 14.017 8.44772 14.017 9V15M3.017 21L3.017 18C3.017 16.8954 3.91243 16 5.017 16H8.017C8.56928 16 9.017 15.5523 9.017 15V9C9.017 8.44772 8.56928 8 8.017 8H4.017C3.46472 8 3.017 8.44772 3.017 9V15"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <p class="text-gray-500 italic leading-relaxed">
+                            The set of ready made CSS files with different color schemes will help you in quick
+                            landing's
+                            adaptation according to your benchmark style.
+                        </p>
+                        <div
+                            class="absolute -bottom-4 left-1/2 -translate-x-1/2 w-0 h-0 border-l-[15px] border-l-transparent border-r-[15px] border-r-transparent border-t-[20px] border-t-white">
+                        </div>
+                    </div>
+                    <img src="./images/user1.webp" alt="Frank Adams"
+                        class="w-20 h-20 rounded-full border-4 border-white mb-3 object-cover">
+                    <h3 class="text-white font-bold text-lg">Frank Adams</h3>
+                    <p class="text-blue-800 text-sm font-medium">Unbounce.com</p>
+                </div>
+
+                <div class="flex flex-col items-center text-center">
+                    <div class="relative bg-white p-8 rounded-2xl shadow-lg mb-8">
+                        <div
+                            class="absolute -top-6 left-1/2 -translate-x-1/2 bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-md ring-4 ring-black/15">
+                            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                                <path
+                                    d="M14.017 21L14.017 18C14.017 16.8954 14.9124 16 16.017 16H19.017C19.5693 16 20.017 15.5523 20.017 15V9C20.017 8.44772 19.5693 8 19.017 8H15.017C14.4647 8 14.017 8.44772 14.017 9V15M3.017 21L3.017 18C3.017 16.8954 3.91243 16 5.017 16H8.017C8.56928 16 9.017 15.5523 9.017 15V9C9.017 8.44772 8.56928 8 8.017 8H4.017C3.46472 8 3.017 8.44772 3.017 9V15"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <p class="text-gray-500 italic leading-relaxed">
+                            The set of ready made CSS files with different color schemes will help you in quick
+                            landing's
+                            adaptation according to your benchmark style.
+                        </p>
+                        <div
+                            class="absolute -bottom-4 left-1/2 -translate-x-1/2 w-0 h-0 border-l-[15px] border-l-transparent border-r-[15px] border-r-transparent border-t-[20px] border-t-white">
+                        </div>
+                    </div>
+                    <img src="./images/user2.webp" alt="Britney Simpson"
+                        class="w-20 h-20 rounded-full border-4 border-white mb-3 object-cover">
+                    <h3 class="text-white font-bold text-lg">Britney Simpson</h3>
+                    <p class="text-blue-800 text-sm font-medium">envato.com</p>
+                </div>
+
+                <div class="flex flex-col items-center text-center">
+                    <div class="relative bg-white p-8 rounded-2xl shadow-lg mb-8">
+                        <div
+                            class="absolute -top-6 left-1/2 -translate-x-1/2 bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-md ring-4 ring-black/15">
+                            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                                <path
+                                    d="M14.017 21L14.017 18C14.017 16.8954 14.9124 16 16.017 16H19.017C19.5693 16 20.017 15.5523 20.017 15V9C20.017 8.44772 19.5693 8 19.017 8H15.017C14.4647 8 14.017 8.44772 14.017 9V15M3.017 21L3.017 18C3.017 16.8954 3.91243 16 5.017 16H8.017C8.56928 16 9.017 15.5523 9.017 15V9C9.017 8.44772 8.56928 8 8.017 8H4.017C3.46472 8 3.017 8.44772 3.017 9V15"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <p class="text-gray-500 italic leading-relaxed">
+                            The set of ready made CSS files with different color schemes will help you in quick
+                            landing's
+                            adaptation according to your benchmark style.
+                        </p>
+                        <div
+                            class="absolute -bottom-4 left-1/2 -translate-x-1/2 w-0 h-0 border-l-[15px] border-l-transparent border-r-[15px] border-r-transparent border-t-[20px] border-t-white">
+                        </div>
+                    </div>
+                    <img src="./images/user3.webp" alt="Larry Johnson"
+                        class="w-20 h-20 rounded-full border-4 border-white mb-3 object-cover">
+                    <h3 class="text-white font-bold text-lg">Larry Johnson</h3>
+                    <p class="text-blue-800 text-sm font-medium">WordPress.com</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="w-full px-6 pt-6 lg:pt-16 py-16 sm:px-10 lg:px-16 bg-white font-sans">
+        <h5 class="text-[#0556dd] text-2xl lg:text-2xl text-center font-roboto font-normal mb-3">Purchase details</h5>
+        <h1 class="text-center text-[#222222] text-5xl lg:text-5xl font-roboto font-normal">Pricing Plans</h1>
+
+        <div class="flex flex-col items-center w-full mt-10">
+            <div class="w-16 h-[1px] bg-[#0556dd] mb-1 mx-auto"></div>
+            <div class="w-10 h-[1px] bg-[#0556dd] mb-10 mx-auto"></div>
+        </div>
+
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <div class="border border-gray-200 bg-white flex flex-col">
+                <h3
+                    class="text-xl lg:text-2xl mb-4 flex justify-center text-center font-normal font-roboto text-[#222222] items-center pt-6">
+                    Free</h3>
+                <div class="p-8 text-center bg-[#eeeeee]">
+                    <p class="text-[#666666] text-xs font-roboto font-normal">From</p>
+                    <div class="text-[#0556dd] text-6xl font-normal">$99</div>
+                    <p class="text-[#666666] text-lg mt-2 font-roboto font-normal">Per Month</p>
+                </div>
+                <div class="p-6 space-y-4">
+                    <div class="flex justify-between items-center text-lg text-[#777777] border-b pb-3 font-roboto">
+                        <span>Total
+                            Users</span><span>15</span>
+                    </div>
+                    <div class="flex justify-between items-center text-lg text-[#777777] border-b pb-3 font-roboto">
+                        <span>Unlimited
+                            Styles</span><span><svg class="w-8 h-8 text-[#000000]" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7">
+                                </path>
+                            </svg></span>
+                    </div>
+                    <div class="flex justify-between items-center text-lg text-[#777777] border-b pb-3 font-roboto">
+                        <span>Advanced
+                            Protection</span><span><svg class="w-8 h-8 text-black" fill="currentColor"
+                                viewBox="0 0 20 20">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+                                    clip-rule="evenodd"></path>
+                            </svg></span>
+                    </div>
+                    <div class="flex justify-between items-center text-lg text-[#777777] border-b pb-3 font-roboto">
+                        <span>Cloud
+                            Storage</span><span><svg class="w-8 h-8 text-black" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+                                    clip-rule="evenodd"></path>
+                            </svg></span>
+                    </div>
+                    <div class="flex justify-between items-center text-lg text-[#777777] border-b pb-3 font-roboto">
+                        <span>24/7 Customer
+                            Service</span><span><svg class="w-8 h-8 text-black" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+                                    clip-rule="evenodd"></path>
+                            </svg></span>
+                    </div>
+                    <div class="flex justify-between items-center text-lg text-[#777777] border-b pb-3 font-roboto">
+                        <span>Backup
+                            Service</span><span><svg class="w-8 h-8 text-black" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+                                    clip-rule="evenodd"></path>
+                            </svg></span>
+                    </div>
+                </div>
+                <div class="p-8 mt-auto flex justify-center">
+                    <button
+                        class="w-54 border-3 border-[#0556dd] text-[#0556dd] py-4 text-2xl font-normal font-roboto hover:bg-[#0556dd] hover:text-white transition-colors">
+                        Sign Up
+                    </button>
+                </div>
+            </div>
+
+            <div class="border border-gray-200 bg-white flex flex-col  z-10">
+                <h3 class="text-xl mb-4 flex justify-center text-center items-center pt-6">Premium</h3>
+                <div class="p-8 text-center bg-[#0556dd] text-white">
+                    <p class="text-white text-xs font-normal font-roboto">From</p>
+                    <div class="text-6xl font-normal">$199</div>
+                    <p class="text-white text-lg mt-2 font-normal font-roboto">Per Month</p>
+                </div>
+                <div class="p-6 space-y-4">
+                    <div class="flex justify-between items-center text-lg text-[#777777] border-b pb-3 font-roboto">
+                        <span>Total
+                            Users</span><span>35</span>
+                    </div>
+                    <div class="flex justify-between items-center text-lg text-[#777777] border-b pb-3 font-roboto">
+                        <span>Unlimited
+                            Styles</span><span><svg class="w-8 h-8 text-black" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7">
+                                </path>
+                            </svg></span>
+                    </div>
+                    <div class="flex justify-between items-center  text-lg text-[#777777] border-b pb-3 font-roboto">
+                        <span>Advanced
+                            Protection</span><span><svg class="w-8 h-8 text-black" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7">
+                                </path>
+                            </svg></span>
+                    </div>
+                    <div class="flex justify-between items-center text-lg text-[#777777] border-b pb-3 font-roboto">
+                        <span>Cloud
+                            Storage</span><span><svg class="w-8 h-8 text-black" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7">
+                                </path>
+                            </svg></span>
+                    </div>
+                    <div class="flex justify-between items-center text-lg text-[#777777] border-b pb-3 font-roboto">
+                        <span>24/7 Customer
+                            Service</span><span><svg class="w-8 h-8 text-black" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7">
+                                </path>
+                            </svg></span>
+                    </div>
+                    <div class="flex justify-between items-center text-lg text-[#777777] border-b pb-3 font-roboto">
+                        <span>Backup
+                            Service</span><span><svg class="w-8 h-8 text-black" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+                                    clip-rule="evenodd"></path>
+                            </svg></span>
+                    </div>
+                </div>
+                <div class="p-8 mt-auto flex justify-center">
+                    <button
+                        class="w-54 bg-[#0556dd] text-white py-5 text-2xl font-normal font-roboto flex items-center rounded-sm justify-center gap-2 hover:bg-[#0444b5] transition-colors">
+                        Sign Up
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="border border-gray-200 bg-white flex flex-col">
+                <h3 class="text-xl mb-4 flex justify-center text-center items-center pt-6">Ultimate</h3>
+                <div class="p-8 text-center bg-[#eeeeee]">
+                    <p class="text-[#666666] text-xs font-roboto font-normal">From</p>
+                    <div class="text-[#0556dd] text-6xl font-normal">$299</div>
+                    <p class="text-[#666666] text-lg mt-2 font-roboto font-normal">Per Month</p>
+                </div>
+                <div class="p-6 space-y-4">
+                    <div class="flex justify-between items-center text-lg text-[#777777]  font-roboto border-b pb-3">
+                        <span>Total
+                            Users</span><span>60</span>
+                    </div>
+                    <div class="flex justify-between items-center text-lg text-[#777777]  font-roboto border-b pb-3">
+                        <span>Unlimited
+                            Styles</span><span><svg class="w-8 h-8 text-black" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7">
+                                </path>
+                            </svg></span>
+                    </div>
+                    <div class="flex justify-between items-center text-lg text-[#777777]  font-roboto border-b pb-3">
+                        <span>Advanced
+                            Protection</span><span><svg class="w-8 h-8 text-black" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7">
+                                </path>
+                            </svg></span>
+                    </div>
+                    <div class="flex justify-between items-center text-lg text-[#777777]  font-roboto border-b pb-3">
+                        <span>Cloud
+                            Storage</span><span><svg class="w-8 h-8 text-black" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7">
+                                </path>
+                            </svg></span>
+                    </div>
+                    <div class="flex justify-between items-center text-lg text-[#777777]  font-roboto border-b pb-3">
+                        <span>24/7 Customer
+                            Service</span><span><svg class="w-8 h-8 text-black" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7">
+                                </path>
+                            </svg></span>
+                    </div>
+                    <div class="flex justify-between items-center text-lg text-[#777777]  font-roboto border-b pb-3">
+                        <span>Backup
+                            Service</span><span><svg class="w-8 h-8 text-black" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7">
+                                </path>
+                            </svg></span>
+                    </div>
+                </div>
+                <div class="p-8 mt-auto flex justify-center">
+                    <button
+                        class="w-54 border-2 border-[#0556dd] text-[#0556dd] py-5 text-2xl font-normal font-roboto hover:bg-[#0556dd] hover:text-white transition-colors">Sign
+                        Up</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section
+        class="relative w-full flex flex-col items-center justify-center px-6 sm:px-10 py-12 lg:py-24 lg:px-16 overflow-hidden bg-cover bg-center bg-fixed"
+        style="background-image: linear-gradient(to bottom, rgba(14, 59, 130, 0.97) 0%, rgba(21, 94, 210, 0.9) 80%), url('./images/image123.webp');">
+
+        <h5 class="text-[#ffffff] text-2xl lg:text-2xl text-center font-normal mb-3 font-roboto">For your Smart Devices
+        </h5>
+        <h1 class="text-center text-[#ffffff] text-5xl lg:text-5xl font-normal font-roboto">Download The Bright App!
+        </h1>
+
+        <div class="flex flex-col items-center w-full mt-10">
+            <div class="w-16 h-[1px] bg-[#ffffff] mb-1 mx-auto"></div>
+            <div class="w-10 h-[1.5px] bg-[#ffffff]/70 mb-10 mx-auto"></div>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-4 w-full max-w-6xl">
+
+            <a href="#"
+                class="group flex items-center w-64 h-16 border-2 border-white rounded-md overflow-hidden transition-all duration-300 hover:bg-white">
+                <div class="bg-white h-full w-1/4 flex items-center justify-center">
+                    <i class="fab fa-apple text-black text-3xl"></i>
+                </div>
+                <div class="w-3/4 text-center">
+                    <span
+                        class="text-white text-xl font-medium font-roboto transition-colors duration-300 group-hover:text-black">iPhone</span>
+                </div>
+            </a>
+
+            <a href="#"
+                class="group flex items-center w-64 h-16 border-2 border-white rounded-md overflow-hidden transition-all duration-300 hover:bg-white">
+                <div class="bg-white h-full w-1/4 flex items-center justify-center">
+                    <i class="fab fa-android text-black text-3xl"></i>
+                </div>
+                <div class="w-3/4 text-center">
+                    <span
+                        class="text-white text-xl font-medium font-roboto transition-colors duration-300 group-hover:text-black">Android</span>
+                </div>
+            </a>
+
+            <a href="#"
+                class="group flex items-center w-64 h-16 border-2 border-white rounded-md overflow-hidden transition-all duration-300 hover:bg-white">
+                <div class="bg-white h-full w-1/4 flex items-center justify-center">
+                    <i class="fab fa-windows text-black text-2xl"></i>
+                </div>
+                <div class="w-3/4 text-center">
+                    <span
+                        class="text-white text-xl font-medium font-roboto transition-colors duration-300 group-hover:text-black">Windows</span>
+                </div>
+            </a>
+
+            <a href="#"
+                class="group flex items-center w-64 h-16 border-2 border-white rounded-md overflow-hidden transition-all duration-300 hover:bg-white">
+                <div class="bg-white h-full w-1/4 flex items-center justify-center">
+                    <i class="fas fa-desktop text-black text-2xl"></i>
+                </div>
+                <div class="w-3/4 text-center">
+                    <span
+                        class="text-white text-xl font-medium  font-roboto transition-colors duration-300 group-hover:text-black">Desktop</span>
+                </div>
+            </a>
+
+        </div>
+    </section>
+    <section class="w-full py-16 bg-white font-sans">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+                <div class="flex flex-col items-center group">
+                    <div class="relative flex items-center justify-center w-18 h-18 mb-6">
+                        <div class="absolute inset-0 border border-[#155ed2] rounded-full scale-110"></div>
+                        <div
+                            class="bg-[#155ed2] w-full h-full rounded-full flex items-center justify-center shadow-lg shadow-[inset_0_0_0_1px_#0556dd] transition-transform duration-300">
+                            <i class="fas fa-flag text-white text-3xl"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-normal text-[#222222] mb-4 font-roboto">Address</h3>
+                    <p class="text-[#777777] font-roboto font-normal">
+                        795 South Park, Door 6<br>
+                        Wonderland, CA 94107, Australia
+                    </p>
+                </div>
+
+                <div class="flex flex-col items-center group">
+                    <div class="relative flex items-center justify-center w-18 h-18 mb-6">
+                        <div class="absolute inset-0 border border-[#155ed2] rounded-full scale-110"></div>
+                        <div
+                            class="bg-[#155ed2] w-full h-full rounded-full flex items-center justify-center shadow-lg shadow-[inset_0_0_0_1px_#0556dd] transition-transform duration-300 ">
+                            <i class="fas fa-phone-alt text-white text-3xl"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-normal text-[#222222] mb-4 font-roboto">Phones</h3>
+                    <div class="text-[#777777] font-roboto font-normal">
+                        <p>+440 875369208 - <span class="font-bold text-gray-700">Office</span></p>
+                        <p>+440 353363114 - <span class="font-bold text-gray-700">Fax</span></p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center group">
+                    <div class="relative flex items-center justify-center w-18 h-18 mb-6">
+                        <div class="absolute inset-0 border border-[#155ed2] rounded-full scale-110"></div>
+                        <div
+                            class="bg-[#155ed2] w-full h-full rounded-full flex items-center justify-center shadow-lg shadow-[inset_0_0_0_1px_#0556dd] transition-transform duration-300">
+                            <i class="fas fa-envelope text-white text-3xl"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-normal text-[#222222] mb-4 font-roboto">Email</h3>
+                    <div class="flex flex-col space-y-1">
+                        <a href="mailto:support@sitename.com"
+                            class="text-[#0556dd] hover:underline transition-colors">support@sitename.com</a>
+                        <a href="mailto:info@sitename.com"
+                            class="text-[#0556dd] hover:underline transition-colors">info@sitename.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="relative w-full flex items-center justify-center my-4">
+            <div class="absolute w-full border-t border-gray-200"></div>
+            <div
+                class="relative flex items-center justify-center w-16 h-16 bg-[#eeeeee] hover:bg-[#d4d4d4] rounded-full border-[6px] border-white ring-1 ring-gray-200 transition-all duration-300 cursor-pointer">
+                <i class="far fa-envelope text-gray-600 text-xl"></i>
+            </div>
+        </div>
+        <p class="text-center text-sm text-[#155ed2] font-roboto font-medium hover:underline cursor-pointer mb-16">
+            Contact
+            Us or Subscribe</p>
+
+        <div class="flex flex-wrap justify-center gap-3 mb-16 px-4">
+            <a href="#"
+                class="w-16 h-16 rounded-full bg-[#eeeeee] flex items-center justify-center text-gray-700  hover:bg-[#337ab7] transition-all duration-300"><i
+                    class="fab fa-twitter text-2xl"></i></a>
+            <a href="#"
+                class="w-16 h-16 rounded-full bg-[#eeeeee] flex items-center justify-center text-gray-700 hover:bg-[#337ab7] hover:text-white transition-all duration-300"><i
+                    class="fab fa-facebook-f text-2xl"></i></a>
+            <a href="#"
+                class="w-16 h-16 rounded-full bg-[#eeeeee] flex items-center justify-center text-gray-700 hover:bg-[#593e34] hover:text-white transition-all duration-300"><i
+                    class="fab fa-instagram text-2xl"></i></a>
+            <a href="#"
+                class="w-16 h-16 rounded-full bg-[#eeeeee] flex items-center justify-center text-gray-700 hover:bg-[#a9272f] hover:text-white transition-all duration-300"><i
+                    class="fab fa-google-plus-g text-2xl"></i></a>
+            <a href="#"
+                class="w-16 h-16 rounded-full bg-[#eeeeee] flex items-center justify-center text-gray-700 hover:bg-[#337ab7] hover:text-white transition-all duration-300"><i
+                    class="fab fa-vimeo-v text-2xl"></i></a>
+            <a href="#"
+                class="w-16 h-16 rounded-full bg-[#eeeeee] flex items-center justify-center text-gray-700 hover:bg-[#a9272f] hover:text-white transition-all duration-300"><i
+                    class="fab fa-youtube text-2xl"></i></a>
+            <a href="#"
+                class="w-16 h-16 rounded-full bg-[#eeeeee] flex items-center justify-center text-gray-700 hover:bg-[#a9272f] hover:text-white transition-all duration-300"><i
+                    class="fab fa-pinterest-p text-2xl"></i></a>
+        </div>
+
+        <div class="flex flex-col items-center justify-center mb-10">
+            <div class="flex items-center gap-3">
+                <div
+                    class="bg-[#155ed2] text-white font-bold text-2xl w-10 h-10 flex items-center justify-center rounded-sm">
+                    B</div>
+                <span class="text-[#155ed2] text-3xl font-bold tracking-widest uppercase">Right</span>
+            </div>
+        </div>
+
+        <div class="text-center font-roboto">
+            <p class="text-[#222222] font-semibold text-lg">Bright <span class="text-[#777777] font-normal">2016 ©</span>
+            </p>
+            <p class="text-[#777777] mt-1">Designed and Rights by <a href="#"
+                    class="text-[#222222] font-bold border-b border-[#222222] hover:text-[#155ed2] hover:border-[#155ed2] transition-colors">Morad</a>
+            </p>
+        </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const navbar = document.getElementById('navbar');
-            const menuBtn = document.getElementById('menu-btn');
-            const closeBtn = document.getElementById('close-btn');
-            const mobileMenu = document.getElementById('mobile-menu');
-            const overlay = document.getElementById('overlay');
+        const menuBtn = document.getElementById('menu-btn');
+        const closeBtn = document.getElementById('close-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const overlay = document.getElementById('overlay');
 
-            // SCROLL SHOW/HIDE NAVBAR
-            window.onscroll = function () {
-                if (window.scrollY > 100) {
-                    navbar.classList.remove('-translate-y-full');
-                    navbar.classList.add('translate-y-0');
-                } else {
-                    navbar.classList.add('-translate-y-full');
-                    navbar.classList.remove('translate-y-0');
-                }
-            };
+        // SCROLL SHOW/HIDE NAVBAR
+        window.onscroll = function () {
+            if (window.scrollY > 100) {
+                navbar.classList.remove('-translate-y-full');
+                navbar.classList.add('translate-y-0');
+            } else {
+                navbar.classList.add('-translate-y-full');
+                navbar.classList.remove('translate-y-0');
+            }
+        };
 
-            // OPEN MENU
-            menuBtn.addEventListener('click', () => {
-                mobileMenu.classList.remove('translate-x-full');
-                mobileMenu.classList.add('translate-x-0');
+        // OPEN MENU
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.remove('translate-x-full');
+            mobileMenu.classList.add('translate-x-0');
 
-                overlay.classList.remove('hidden');
-            });
+            overlay.classList.remove('hidden');
+        });
 
-            // CLOSE MENU (CLOSE BUTTON)
-            closeBtn.addEventListener('click', () => {
-                mobileMenu.classList.add('translate-x-full');
-                mobileMenu.classList.remove('translate-x-0');
+        // CLOSE MENU (CLOSE BUTTON)
+        closeBtn.addEventListener('click', () => {
+            mobileMenu.classList.add('translate-x-full');
+            mobileMenu.classList.remove('translate-x-0');
 
-                overlay.classList.add('hidden');
-            });
+            overlay.classList.add('hidden');
+        });
 
-            // CLOSE MENU (CLICK OVERLAY)
-            overlay.addEventListener('click', () => {
-                mobileMenu.classList.add('translate-x-full');
-                mobileMenu.classList.remove('translate-x-0');
+        // CLOSE MENU (CLICK OVERLAY)
+        overlay.addEventListener('click', () => {
+            mobileMenu.classList.add('translate-x-full');
+            mobileMenu.classList.remove('translate-x-0');
 
-                overlay.classList.add('hidden');
-            });
+            overlay.classList.add('hidden');
+        });
 
         // Counter Animation
 
         document.addEventListener('DOMContentLoaded', () => {
-                const counters = document.querySelectorAll('.counter');
-                const speed = 500; // The higher the slower
+            const counters = document.querySelectorAll('.counter');
+            const speed = 500; // The higher the slower
 
-                const startCounter = (counter) => {
-                    const animate = () => {
-                        const target = +counter.getAttribute('data-target');
-                        const count = +counter.innerText;
-                        const increment = target / speed;
+            const startCounter = (counter) => {
+                const animate = () => {
+                    const target = +counter.getAttribute('data-target');
+                    const count = +counter.innerText;
+                    const increment = target / speed;
 
-                        if (count < target) {
-                            counter.innerText = Math.ceil(count + increment);
-                            setTimeout(animate, 1);
-                        } else {
-                            counter.innerText = target;
-                        }
-                    };
-                    animate();
+                    if (count < target) {
+                        counter.innerText = Math.ceil(count + increment);
+                        setTimeout(animate, 1);
+                    } else {
+                        counter.innerText = target;
+                    }
                 };
+                animate();
+            };
 
-                // Intersection Observer to trigger when visible
-                const observerOptions = {
-                    threshold: 0.5 // Trigger when 50% of the element is visible
-                };
+            // Intersection Observer to trigger when visible
+            const observerOptions = {
+                threshold: 0.5 // Trigger when 50% of the element is visible
+            };
 
-                const observer = new IntersectionObserver((entries, observer) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            startCounter(entry.target);
-                            observer.unobserve(entry.target); // Stops observing once animated
-                        }
-                    });
-                }, observerOptions);
-
-                counters.forEach(counter => {
-                    // Reset text to 0 initially
-                    counter.innerText = '0';
-                    observer.observe(counter);
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        startCounter(entry.target);
+                        observer.unobserve(entry.target); // Stops observing once animated
+                    }
                 });
+            }, observerOptions);
+
+            counters.forEach(counter => {
+                // Reset text to 0 initially
+                counter.innerText = '0';
+                observer.observe(counter);
             });
+        });
     </script>
 </body>
-
 </html>
